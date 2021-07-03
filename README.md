@@ -107,7 +107,11 @@ to be installed. If you wish to use the headless renderer ensure you have the li
 ReplicaViewer is an interactive UI to explore the Replica Dataset. 
 
 ```
-./build/bin/ReplicaViewer mesh.ply /path/to/atlases [mirrorFile]
+./build/ReplicaSDK/ReplicaViewer mesh.ply /path/to/atlases [mirrorFile]
+```
+For example:
+```
+./build/ReplicaSDK/ReplicaViewer /media/tynguyen/replica_v1/room_0/mesh.ply /media/tynguyen/replica_v1/room_0/textures
 ```
 
 ![ReplicaViewer](./assets/ReplicaViewer.png)
